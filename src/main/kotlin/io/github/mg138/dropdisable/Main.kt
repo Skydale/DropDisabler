@@ -13,8 +13,6 @@ object Main : DedicatedServerModInitializer {
     override fun onInitializeServer() {
         PolymerRPUtils.addAssetSource(modId)
 
-        //DropDisable.register()
-
-        logger.info("Registered Grappling hook.")
+        logger.info("Registered Drop Disable.")
     }
 }
